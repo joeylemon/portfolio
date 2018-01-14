@@ -1,0 +1,133 @@
+@font-face {
+    font-family: bigfont;
+    src: url(Gobold-Bold.ttf);
+}
+
+@font-face {
+    font-family: profont;
+    src: url(Pro-Font.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(Roboto-Thin.ttf);
+}
+
+body {
+	background-color: #09aee4;
+	text-align: center;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+hr {
+	width: 87%;
+	border-top: 1px solid rgba(255, 255, 255, 0.3);
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+canvas {
+	filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.1));
+}
+
+.graph {
+	margin-top: 10px;
+}
+
+.title {
+	font-size: 47px;
+	margin-top: 0px;
+	margin-bottom: -20px;
+	color: #fff;
+}
+
+.coins {
+	display: inline-block;
+	width: 375px;
+	text-align: center;
+}
+
+.coin {
+	position: relative;
+	display: inline-block;
+	width: 95%;
+	height: 80px;
+	/*border: 1px solid rgba(255, 255, 255, 0.3);*/
+	text-align: left;
+	vertical-align: middle;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.coin h1 {
+	position: absolute;
+	top: 13px;
+	left: 15px;
+	margin: 0px;
+	font-size: 40px;
+	font-family: profont;
+}
+
+.coin .price {
+	position: absolute;
+	width: 150px;
+	margin: 0px;
+	text-align: left;
+	top: 49px;
+	left: 15px;
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.coin input {
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	width: 60px;
+	color: rgba(255, 255, 255, 0.7);
+	background-color: transparent;
+	border: none;
+}
+
+.coin .total {
+	position: absolute;
+	width: 200px;
+	margin: 0px;
+	text-align: right;
+	top: 10px;
+	right: 15px;
+	font-size: 32px;
+}
+
+.coin .diff {
+	position: absolute;
+	width: 80px;
+	margin: 0px;
+	text-align: right;
+	top: 49px;
+	right: 15px;
+}
+
+.up {
+	color: #33e409;
+}
+
+.down {
+	color: #e40909;
+}
+
+.none {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.total {
+	margin-top: 10px;
+	color: #fff;
+	font-size: 50px;
+}
+
+.total .diff {
+	margin-top: -15px;
+	font-size: 15px;
+}
