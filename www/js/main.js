@@ -1,3 +1,10 @@
+document.addEventListener("deviceready", onDeviceReady, false);
+function onDeviceReady() {
+	try {
+		window.plugins.webviewcolor.change('#09AEE4');
+	} catch (e) {}
+}
+
 setPrices();
 function setPrices() {
 	$.ajax({
@@ -5,7 +12,7 @@ function setPrices() {
 		url: "https://jlemon.org/projects/btc/prices.php",
 		success: function (result) {
 			$("#coins").html(result);
-			
+
 			$("#title").show();
 			$("#coins").show();
 			$("#graph").show();
