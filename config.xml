@@ -10,6 +10,7 @@
     <icon height="120" platform="ios" src="www/images/icon2x.png" width="120" />
 	<splash height="1334" platform="ios" src="splash/ios/iphone_6_7.png" width="750" />
     <engine name="ios" spec="~4.4.0" />
+	<preference name="ShowSplashScreenSpinner" value="false" />
 	<preference name="orientation" value="portrait" />
 	<preference name="StatusBarStyle" value="lightcontent" />
     <plugin name="cordova-plugin-webviewcolor" spec="~2.0.0" />
